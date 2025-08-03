@@ -56,17 +56,17 @@ Trained on a cleaned and preprocessed version of the Bank Customer Churn dataset
 
 
 
-## 📁 File Structure
-'''
-📦 churn-prediction-app/
-├── app.py # Streamlit App
-├── model.h5 # Trained ANN model
-├── scaler.pkl # StandardScaler object
-├── label_encoder_gender.pkl # LabelEncoder for gender
-├── onehot_encoder_geo.pkl # OneHotEncoder for geography
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
-'''
+## 📁 File Structure 
+
+- churn-prediction-app/
+  - app.py                      → Streamlit App
+  - model.h5                    → Trained ANN model
+  - scaler.pkl                  → StandardScaler object
+  - label_encoder_gender.pkl    → LabelEncoder for Gender
+  - onehot_encoder_geo.pkl      → OneHotEncoder for Geography
+  - requirements.txt            → Python dependencies
+  - README.md                   → Project documentation
+
 
 
 ⚙️ How to Run Locally
